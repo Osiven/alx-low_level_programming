@@ -1,11 +1,14 @@
-#include<stdio.h>
+#include<stdio.h>                                                                                                                       
 
-int main(void)
+/**                                                                                                                                     
+ *main - prints programming is like a building a multilingual puzzle
+ *
+ * Return: prints succesfully
+ */
+int main(void)                                 
 {
-	//string initialization
-	char phr[] = "\"Programming is like building a multilingual puzzle";
+	char phr[] = "\"Programming is like a multilingual puzzle";
 
-	puts(phr); //writing string to stdout
-
-	return 0;
+	puts(phr);
+	return (0);
 }
