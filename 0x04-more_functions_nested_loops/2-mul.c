@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,6 +8,7 @@
  * @b: second integer
  * Result: print product
  */
+
 int mul(int a, int b)
 {
 	int product = a * b;
