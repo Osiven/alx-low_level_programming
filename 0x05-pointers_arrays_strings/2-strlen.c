@@ -10,5 +10,5 @@
 
 int _strlen(char *s)
 {
-	strlen(*s)
+	size_t strlen(const char* s);
 }
