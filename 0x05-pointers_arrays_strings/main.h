@@ -2,6 +2,6 @@
 #define _MAIN_H_
 
 void print_rev(char *s);
-char *strrev(char *str);
+void *strrev(char str[]);
 
 #endif

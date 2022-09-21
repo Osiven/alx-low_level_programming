@@ -13,17 +13,14 @@ void print_rev(char *s)
 	strrev(s);
 }
 
-char *strrev(char *str)
+void *strrev(char str[])
 {
-	char *p1, *p2;
+	int n = strlen(str);
 
-	if (!str || !*str)
-		return (str);
-	for (p1 = str, p2 = str + strlen(str) - 1; p2 > p1; ++p1, --p2)
+	for (int i = 0; i < n / 2; i++)
 	{
-		*p1 ^= *p2;
-		*p2 ^= *p1;
-		*p1 ^= *p2;
+		char ch = str[i];
+		str[i] = str[n - i - 1];
+		str[n - i - 1] = ch;
 	}
-	return (str);
 }
