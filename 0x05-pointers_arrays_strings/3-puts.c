@@ -1,7 +1,8 @@
 /**
  * _puts - Print text
+ * @str: the only parameter.
  *
- * Return: always 0.
+ * Return: always zero.
  */
 #include <stdio.h>
 #include "main.h"
