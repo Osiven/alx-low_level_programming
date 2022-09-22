@@ -1,6 +1,6 @@
 /**
  * _strlen - calculate the lenght of a string
- * @*s: pointer
+ * @s: pointer
  *
  * Return: always 0 .
  */
@@ -11,5 +11,8 @@
 int _strlen(char *s)
 {
 	size_t strlen(const char *s);
-	strlen(s);
+
+	int i = strlen(s);
+
+	return (i);
 }
