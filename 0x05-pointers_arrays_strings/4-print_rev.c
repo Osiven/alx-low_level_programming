@@ -10,8 +10,7 @@
 
 void print_rev(char *s)
 {
-	int lgt = _strlen(s);
-	int i;
+	int i, lgt = _strlen(s);
 
 	if (lgt == 1)
 		printf("%s\n", s);
